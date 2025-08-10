@@ -65,7 +65,7 @@ with open("fortigate_service_custom_config.txt", "r") as f:
 services, skipped = parse_fortigate_service_custom(lines)
 paloalto_cmds = convert_to_paloalto_service_groups(services)
 
-with open("paloalto_service_custom_output.txt", "w") as f:
+with open("paloalto_4.1service_custom_output.txt", "w") as f:
     for cmd in paloalto_cmds:
         f.write(cmd + "\n")
 
