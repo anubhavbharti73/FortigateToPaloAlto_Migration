@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # ==== CONFIG ====
-fortigate_config_file = "6. application list"
+fortigate_config_file = "6. application list.txt"
 mapping_file = "set-category.xlsx"
 output_a_file = "appgroup_A.txt"
 output_b_file = "appgroup_B.txt"
